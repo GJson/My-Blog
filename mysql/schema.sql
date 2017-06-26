@@ -1,9 +1,9 @@
 
 -- 创建数据库
-drop database if exists tale;
-create database `tale` default character set utf8 collate utf8_general_ci;
+drop qdm20121951_db if exists tale;
+create database `qdm20121951_db` default character set utf8 collate utf8_general_ci;
 
-use tale;
+use qdm20121951_db;
 
 DROP TABLE IF EXISTS `t_logs`;
 
@@ -103,7 +103,7 @@ LOCK TABLES `t_metas` WRITE;
 INSERT INTO `t_metas` (`mid`, `name`, `slug`, `type`, `description`, `sort`, `parent`)
 VALUES
 	(1,'default',NULL,'category',NULL,0,0),
-	(6,'my github','https://github.com/ZHENFENG13','link',NULL,0,0);
+	(6,'my github','https://github.com/Gjson','link',NULL,0,0);
 
 UNLOCK TABLES;
 
@@ -120,7 +120,7 @@ LOCK TABLES `t_options` WRITE;
 
 INSERT INTO `t_options` (`name`, `value`, `description`)
 VALUES
-	('site_title','My Blog',''),
+	('site_title','Travel',''),
 	('social_weibo','',NULL),
 	('social_zhihu','',NULL),
 	('social_github','',NULL),
@@ -168,4 +168,4 @@ CREATE TABLE `t_users` (
 
 INSERT INTO `t_users` (`uid`, `username`, `password`, `email`, `home_url`, `screen_name`, `created`, `activated`, `logged`, `group_name`)
 VALUES
-	(1, 'admin', 'a66abb5684c45962d887564f08346e8d', '1034683568@qq.com', NULL, 'admin', 1490756162, 0, 0, 'visitor');
+	(1, 'admin', '65664761fbe864d830ae9a0b40745f8d', 'gjson@gjson.com', 'www.gjson.com', 'admin', 1490756162, 0, 0, 'visitor');
