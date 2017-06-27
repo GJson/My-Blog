@@ -55,6 +55,16 @@ public final class Commons {
      *
      * @return
      */
+    public static String site_main_url() {
+        return "http://www.gjson.com/";
+    }
+
+
+    /**
+     * 网站链接
+     *
+     * @return
+     */
     public static String site_url() {
         return site_url("");
     }
