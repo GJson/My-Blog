@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.my.blog.website</groupId>
-    <artifactId>my-blog</artifactId>
+    <artifactId>travel</artifactId>
     <!-- now -->
-    <version>3.0.1-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <!-- version的时间节点-->
     <!-- Tale -->
     <!--<version>0.0.1-SNAPSHOT</version>-->
