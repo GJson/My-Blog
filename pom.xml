@@ -6,7 +6,7 @@
     <groupId>com.my.blog.website</groupId>
     <artifactId>travel</artifactId>
     <!-- now -->
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.4-SNAPSHOT</version>
     <!-- version的时间节点-->
     <!-- Tale -->
     <!--<version>0.0.1-SNAPSHOT</version>-->
