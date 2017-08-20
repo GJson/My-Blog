@@ -59,7 +59,7 @@ CREATE TABLE `t_contents` (
   `slug` varchar(200) DEFAULT NULL ,
   `created` int(10) unsigned DEFAULT '0' ,
   `modified` int(10) unsigned DEFAULT '0' ,
-  `content` text COMMENT '内容文字',
+  `content` longtext COMMENT '内容文字',
   `author_id` int(10) unsigned DEFAULT '0' ,
   `type` varchar(16) DEFAULT 'post'  ,
   `status` varchar(16) DEFAULT 'publish' ,
