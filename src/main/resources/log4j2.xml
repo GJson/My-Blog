@@ -57,8 +57,8 @@
             <appender-ref ref="service_log"/>
         </logger>
         <!-- root logger,一般用于放置所有的appender -->
-        <root level="DEBUG">
-            <appender-ref ref="db_log"/>
+        <root level="info">
+            <!--<appender-ref ref="db_log"/>-->
             <appender-ref ref="console"/>
         </root>
     </loggers>
