@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta http-equiv="Cache-Control" content="no-transform"/>
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!-- 网页作者 -->
+    <meta name="author" content="ruoyao, gjson@gjson.com"/>
+    <!-- 搜索引擎抓取 -->
+    <meta name="robots" content="index,follow" />
     <meta name="keywords" th:content="${keywords ?: commons.site_option('site_keywords')}"/>
     <meta name="description" th:content="${description ?:commons.site_option('site_description')}"/>
     <link rel="shortcut icon" th:href="@{/user/img/favicon.png}"/>
@@ -31,6 +35,7 @@
     <div class="navbar-container">
         <a th:href="${commons.site_url('/')}" class="navbar-logo">
             <img th:src="@{/user/img/logo.png}" alt="首页"/>
+            若要科技
         </a>
         <div class="navbar-menu">
             <a th:href="${commons.site_url('/archives')}">归档</a>

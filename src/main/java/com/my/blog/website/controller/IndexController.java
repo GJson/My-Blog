@@ -107,6 +107,27 @@ public class IndexController extends BaseController {
     }
 
     /**
+     * 文章页
+     *
+     * @param request 请求
+
+     * @return
+     */
+    @GetMapping(value = {"article/ourstory"})
+    public String getOurArticle(HttpServletRequest request) {
+//        ContentVo contents = contentService.getContents(cid);
+//
+//        request.setAttribute("article", contents);
+//        request.setAttribute("is_post", true);
+//        completeArticle(request, contents);
+//        updateArticleHit(contents.getCid(), contents.getHits());
+//        render( "http://www.gjson.com/article/ourstory/preview");
+
+        return "redirect:http://gjson.com/article/ourstory/preview";
+
+    }
+
+    /**
      * 文章页(预览)
      *
      * @param request 请求

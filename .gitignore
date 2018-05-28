@@ -27,3 +27,5 @@ target
 tale.sql
 
 src/main/resources/application-jdbc.properties
+
+mysql/schema.sql
